@@ -205,6 +205,11 @@
 \newcommand{\KLcolor}{myorange!45} % keynote lecture
 \newcommand{\ITcolor}{yellow!25} %
 
+\newcommand{\SSScolor}{red!45} % invited speaker
+\newcommand{\CScolor}{blue!45} % contributed talk
+\newcommand{\PScolor}{orange!45} % keynote lecture
+\newcommand{\DIcolor}{yellow!45} %
+
 % row types
 \newcommand{\tablebreak}[2]{% {time span}{break name}
 	\rowcolor{\tbc} #1 &  \multicolumn{4}{c|}{\bfseries #2} \\ \hline }
@@ -221,13 +226,13 @@
 
 %\newcommand{\mytable}{|C{0.15\linewidth}| C{0.05\linewidth}|  C{0.25\linewidth} C{0.1\linewidth} C{0.5\linewidth}|}
 
-\newcommand{\IS}[5]{% {time span}{name}{University}{City, Country}{title}
-	#1 &\cellcolor{\IScolor}IS&{\bfseries#2}\newline #4&&#5 \\ \hline}
-\newcommand{\CT}[5]{%
-	#1 &\cellcolor{\CTcolor}CT&{\bfseries#2}\newline #4&&#5 \\ \hline}
-\newcommand{\KL}[5]{%
-	#1 &\cellcolor{\KLcolor}KL&{\bfseries#2}\newline #4&&#5 \\ \hline}
-\newcommand{\IT}[5]{%
-	#1 &\cellcolor{\ITcolor}IT&{\bfseries#2}\newline #4&&#5 \\ \hline}
+\newcommand{\SSS}[5]{% {time span}{name}{University}{City, Country}{title}
+	#1 &\cellcolor{\SSScolor}Scan&{\bfseries#2}\newline #4&&#5 \\ \hline}
+\newcommand{\CS}[5]{%
+	#1 &\cellcolor{\CScolor}Course&{\bfseries#2}\newline #4&&#5 \\ \hline}
+\newcommand{\PS}[5]{%
+	#1 &\cellcolor{\PScolor}Practice&{\bfseries#2}\newline #4&&#5 \\ \hline}
+\newcommand{\DI}[5]{%
+	#1 &\cellcolor{\DIcolor}Discuss&{\bfseries#2}\newline #4&&#5 \\ \hline}
 \newcommand{\tutorial}[5]{%
 	#1 && {\bfseries#2}\newline #4 &&#5 \\ \hline}

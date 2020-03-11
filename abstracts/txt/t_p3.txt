@@ -1,0 +1,11 @@
+TITLE
+Practical Session 3 Basic reconstruction using Matlab
+AUTHOR
+Vinai Roopchansinghv
+John Derbyshire
+AFFSHORT
+-
+AFF
+-
+ABS
+Partial fourier reconstructions with ISMRMRD and Gadgetron, and applications (e.g. partial k-space, and UTE)

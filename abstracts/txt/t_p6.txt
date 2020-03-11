@@ -1,0 +1,11 @@
+TITLE
+Practical session 6: Ismrmrd Part 2: xml style sheet : Siemens/GE/Bruker conversion
+AUTHOR
+Vinai Roopchansinghv
+John Derbyshire
+AFFSHORT
+-
+AFF
+-
+ABS
+Building vendor-specific ISMRMRD converters, and tailoring conversion via stylesheets.

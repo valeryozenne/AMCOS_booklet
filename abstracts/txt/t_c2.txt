@@ -1,0 +1,10 @@
+TITLE
+Course 1 Gadgetron, a high level overview introduction
+AUTHOR
+David Hansen
+AFFSHORT
+AFF
+ABS
+general presentation
+computer demonstration
+basic thing that gt can give
